@@ -41,7 +41,8 @@ const isDebug =
   process.env.NODE_ENV === 'development' || process.env.DEBUG_PROD === 'true';
 
 if (isDebug) {
-  require('electron-debug')();
+  // open with devtools
+  // require('electron-debug')();
 }
 
 const createWindow = async () => {

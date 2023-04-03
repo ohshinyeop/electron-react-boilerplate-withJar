@@ -11,7 +11,7 @@
     "hot",
     "reload"
   ],
-  "homepage": "https://github.com/ohshinyeop/electron-react-boilerplate-withJar",
+  "homepage": ".",
   "repository": {
     "type": "git",
     "url": "https://github.com/ohshinyeop/electron-react-boilerplate-withJar"
@@ -85,7 +85,8 @@
     "electron-updater": "^5.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.8.1"
+    "react-router-dom": "^6.8.1",
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "@electron/notarize": "^1.2.3",
@@ -97,7 +98,7 @@
     "@testing-library/react": "^13.4.0",
     "@types/jest": "^29.4.0",
     "@types/node": "18.13.0",
-    "@types/react": "^18.0.27",
+    "@types/react": "^18.0.32",
     "@types/react-dom": "^18.0.10",
     "@types/react-test-renderer": "^18.0.0",
     "@types/terser-webpack-plugin": "^5.0.4",
